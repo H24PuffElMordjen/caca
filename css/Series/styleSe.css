@@ -1,0 +1,48 @@
+.tendances{
+    .tendances1{
+        display:flex;
+        gap: 15px;
+        text-align: center;
+    }
+    .tendances2{
+        display:flex;
+        gap: 15px;
+        text-align: center;
+    }
+}
+h2{
+    text-align: center;
+    font-family:"Doto";
+    background-color: rgb(168, 213, 162);
+    padding:10px;
+    border-radius:10px;
+    font-size:1.5em;
+}
+h1{
+    font-family:"Doto";
+    text-align: center;
+    font-size:50px;
+    border-radius: 10px;
+    background-color:rgb(90, 173, 90);
+}
+body{
+    background-color:rgb(5, 5, 10);
+}
+img{
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    margin:10px;
+}
+.classiques{
+    .classiques1{
+        display:flex;
+        gap: 15px;
+        text-align: center;
+    }
+    .classiques2{
+        display:flex;
+        gap: 15px;
+        text-align: center;
+    }
+}
