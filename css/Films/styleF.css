@@ -77,3 +77,113 @@ h1{
         flex-shrink: 0;
     }
 }
+.Nouveautés{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Action{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Aventure{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Comédie{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Drame{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Fantastique{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Horreur{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+.Animation{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
+h2{
+    background-color:rgb(211, 255, 209);
+    border-radius:10px;
+    font-size:1.7em;
+    font-family:"Doto";
+}
