@@ -64,3 +64,16 @@ h1{
                       url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
     }
 }
+.Tendances{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+    }
+}
