@@ -14,3 +14,53 @@ h1{
     border-radius: 10px;
     background-color:rgb(225, 255, 222)
 }
+.Genre{
+    display:flex;
+    gap: 20px;
+    font-family:"Doto";
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        width: 250px;
+        height:150px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        line-height: 150px;
+        color:white;
+        font-size:1.7em;
+        transition: transform 0.3s ease;
+    }
+    a:hover{
+    transform: scale(1.1);
+    }
+    .Genre1{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/johnwick.avif);
+    }
+    .Genre2{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/uncharted.webp);
+    }
+    .Genre3{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/chtis.webp);
+    }
+    .Genre4{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/titanic.webp);
+    }
+    .Genre5{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/seigneuranneaux.webp);
+    }
+    .Genre6{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/shining.jpg);
+    }
+    .Genre7{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
+    }
+}
