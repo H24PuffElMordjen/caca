@@ -50,14 +50,17 @@ img{
     }
 }
 .tendances{
+    display:block;
     justify-content: center; 
     align-items: center;
 }
 .classiques{
+    display:block;
     justify-content: center; 
     align-items: center;
 }
 .big-mouth{
+    display:block;
     justify-content: center; 
     align-items: center;
 }
