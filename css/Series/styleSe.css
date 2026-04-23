@@ -50,17 +50,17 @@ img{
     }
 }
 .tendances{
-    display:block;
-    justify-content: center; 
-    align-items: stretch;
+    align-items: center;
+    display: inline flow-root;
+    justify-content: space-around;
 }
 .classiques{
-    display:block;
-    justify-content: center; 
-    align-items: stretch;
+    align-items: center;
+    display: inline flow-root;
+    justify-content: space-around;
 }
 .big-mouth{
-    display:block;
-    justify-content: center; 
-    align-items: stretch;
+    align-items: center;
+    display: inline flow-root;
+    justify-content: space-around;
 }
