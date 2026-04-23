@@ -11,7 +11,6 @@ h1{
     font-size:50px;
     margin-left: 300px;
     margin-right: 300px;
-    
 }
 #TitrePrincipal{
     border-radius: 10px;
@@ -190,7 +189,7 @@ h2{
     font-size:1.7em;
     font-family:"Doto";
     text-align: center;
-    margin-left: 100fpx;
+    margin-left: 100px;
     margin-right: 1100px;
 }
 .Plateformes{
@@ -205,7 +204,4 @@ h2{
         background-size: cover;	
         flex-shrink: 0;
     }
-}
-.Titre{
-    display:flex;
 }
