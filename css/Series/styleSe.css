@@ -52,15 +52,15 @@ img{
 .tendances{
     display:block;
     justify-content: center; 
-    align-items: center;
+    align-items: stretch;
 }
 .classiques{
     display:block;
     justify-content: center; 
-    align-items: center;
+    align-items: stretch;
 }
 .big-mouth{
     display:block;
     justify-content: center; 
-    align-items: center;
+    align-items: stretch;
 }
