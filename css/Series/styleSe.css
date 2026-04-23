@@ -26,7 +26,10 @@ h1{
     background-color:rgb(90, 173, 90);
 }
 body{
-    background-color:rgb(5, 5, 10);
+    background-image: url("/image/imagesbackground/3417619.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%;
 }
 img{
     border-radius: 10px;
