@@ -12,10 +12,6 @@ h1{
     margin-left: 300px;
     margin-right: 300px;
 }
-#TitrePrincipal{
-    border-radius: 10px;
-    background-color:rgb(225, 255, 222)
-}
 .Genre{
     display:flex;
     gap: 20px;
@@ -203,5 +199,23 @@ h2{
         border-radius:10px;
         background-size: cover;	
         flex-shrink: 0;
+    }
+}
+.Titre{
+    display:flex;
+    #TitrePrincipal{
+        border-radius: 10px;
+        background-color:rgb(225, 255, 222);
+        margin-left: 500px;
+        padding:15px;
+    }
+    #Accueil{
+        background-color:rgb(225, 255, 222) ;
+        border-radius:10px;
+        font-family: "Doto";
+        line-height: 120px;
+        margin:10px;
+        padding:2px;
+        border-spacing: 15px;
     }
 }
