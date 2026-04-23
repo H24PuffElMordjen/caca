@@ -39,7 +39,7 @@ img{
 }
 .classiques{
     .classiques1{
-        display:flex;
+        display: flex;
         gap: 15px;
         text-align: center;
     }
@@ -48,4 +48,19 @@ img{
         gap: 15px;
         text-align: center;
     }
+}
+.tendances{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.classiques{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.big-mouth{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
