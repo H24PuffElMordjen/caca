@@ -209,6 +209,15 @@ h2{
         margin-left: 500px;
         padding:15px;
     }
+    a{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color:rgb(225, 255, 222);
+        margin-left: 5px;
+        padding:15px;   
+        font-family:"Doto";
+        font-size: 1.2em;
+    }
     #Accueil{
         background-color:rgb(225, 255, 222) ;
         border-radius:10px;
