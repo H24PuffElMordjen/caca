@@ -34,31 +34,27 @@ h1 {
     }
     .Genre1{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/johnwick.avif);
+                      url(/image/imagesbackground/theboys.jpg);
     }
     .Genre2{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/uncharted.webp);
+                      url(/image/imagesbackground/Alexander.webp);
     }
     .Genre3{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/chtis.webp);
+                      url(/image/imagesbackground/friends.webp);
     }
     .Genre4{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/titanic.webp);
+                      url(/image/imagesbackground/theexpanse.jpg);
     }
     .Genre5{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/seigneuranneaux.webp);
+                      url(/image/imagesbackground/ourplanet.jpg);
     }
     .Genre6{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/shining.jpg);
-    }
-    .Genre7{
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
+                      url(/image/imagesbackground/jjk.avif);
     }
 }
 .Tendances{
