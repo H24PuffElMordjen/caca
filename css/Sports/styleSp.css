@@ -61,42 +61,6 @@ h1 {
                       url(/image/imagesbackground/Mécanique.jpg);
     }
 }
-.Tendances{
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    justify-content: center;
-    img{
-        width: 200px;
-        height: 300px;
-        margin:10px;
-        border-radius:10px;
-        background-size: cover;	
-        flex-shrink: 0;
-        transition: transform 0.3s ease;
-    }
-    img:hover{
-        transform: scale(1.05);
-    }
-}
-.Nouveautés{
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    justify-content: center;
-    img{
-        width: 200px;
-        height: 300px;
-        margin:10px;
-        border-radius:10px;
-        background-size: cover;	
-        flex-shrink: 0;
-        transition: transform 0.3s ease;
-    }
-    img:hover{
-        transform: scale(1.05);
-    }
-}
 .Football{
     display: flex;
     gap: 20px;
@@ -233,24 +197,6 @@ h2 {
     margin-right: auto;
     width: fit-content;
     padding: 5px 100px;
-}
-.Plateformes{
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    justify-content: center;
-    img{
-        width: 200px;
-        height: 220px;
-        margin:10px;
-        border-radius:10px;
-        background-size: cover;	
-        flex-shrink: 0;
-        transition: transform 0.3s ease;
-    }
-    img:hover{
-        transform: scale(1.05);
-    }
 }
 .Titre{
     display: flex;
