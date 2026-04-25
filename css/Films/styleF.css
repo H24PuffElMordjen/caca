@@ -100,26 +100,132 @@ h1 {
         transform: scale(1.05);
     }
 }
-.carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  cursor: grab;
-}
-
-.carousel img {
-    width: 200px;
-    height: 300px;
-    margin:10px;
-    border-radius:10px;
-    background-size: cover; 
-    flex-shrink: 0;
-    transition: transform 0.3s ease;
+.Action{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
     }
     img:hover{
         transform: scale(1.05);
     }
-
+}
+.Aventure{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Comédie{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Drame{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Fantastique{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Horreur{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Animation{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover; 
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
 h2 {
     background-color: rgb(211, 255, 209);
     border-radius: 10px;
