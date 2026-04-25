@@ -1,66 +1,274 @@
-.tendances{
-    .tendances1{
-        display:flex;
-        gap: 15px;
-        text-align: center;
-    }
-    .tendances2{
-        display:flex;
-        gap: 15px;
-        text-align: center;
-    }
-}
-h2{
-    text-align: center;
-    font-family:"Doto";
-    background-color: rgb(168, 213, 162);
-    padding:10px;
-    border-radius:10px;
-    font-size:1.5em;
-}
-h1{
-    font-family:"Doto";
-    text-align: center;
-    font-size:50px;
-    border-radius: 10px;
-    background-color:rgb(90, 173, 90);
-}
-body{
+body
+{
     background-image: url("/image/imagesbackground/3417619.jpg");
     background-repeat:no-repeat;
     background-position:center center;
     background-size: 100% 100%;
 }
-img{
-    border-radius: 10px;
-    width: 200px;
-    height: 300px;
-    margin:10px;
+h1{
+    font-family:"Doto";
+    text-align: center;
+    font-size:50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
-.classiques{
-    .classiques1{
-        display: flex;
-        gap: 15px;
+.Genre{
+    display:flex;
+    gap: 20px;
+    font-family:"Doto";
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        width: 250px;
+        height:150px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
         text-align: center;
+        line-height: 150px;
+        color:white;
+        font-size:1.7em;
+        transition: transform 0.3s ease;
     }
-    .classiques2{
-        display:flex;
-        gap: 15px;
-        text-align: center;
+    a:hover{
+    transform: scale(1.1);
+    }
+    .Genre1{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/johnwick.avif);
+    }
+    .Genre2{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/Série-Epoque.jpg)
+    }
+    .Genre3{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/Sitcom.webp)
+    }
+    .Genre4{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/Science-Fiction.jpg);
+    }
+    .Genre5{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/Documentaires.webp)
+    }
+    .Genre6{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
     }
 }
-.tendances{
-    align-items: center;
-    display: inline flow-root;
-    justify-content: space-around;
+.Tendances{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
 }
-.classiques{
-    align-items: center;
-    display: inline flow-root;
-    justify-content: space-around;
+.Nouveautés{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
 }
-.big-mouth{
-    align-items: center;
-    display: inline flow-root;
-    justify-content: space-around;
+.Classiques{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Action{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Series-epoques{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Sit-com{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Science-Fiction{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Documentaire{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Animes{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+h2{
+    background-color:rgb(211, 255, 209);
+    border-radius:10px;
+    font-size:1.7em;
+    font-family:"Doto";
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 1100px;
+}
+.Plateformes{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Titre{
+    display:flex;
+    #TitrePrincipal{
+        border-radius: 10px;
+        background-color:rgb(225, 255, 222);
+        margin-left: 485px;
+        padding:15px;
+    }
+    a{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color:rgb(225, 255, 222);
+        margin-left: 15px;
+        padding:15px;   
+        font-family:"Doto";
+        font-size: 1.3em;
+        color:black;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        transition: transform 0.3s ease;
+    }
+    a:hover{
+        transform: scale(1.1);
+    }
+    #Accueil{
+        background-color:rgb(225, 255, 222) ;
+        border-radius:10px;
+        font-family: "Doto";
+        line-height: 120px;
+        margin:10px;
+        padding:2px;
+        border-spacing: 15px;
+    }
 }
