@@ -34,31 +34,31 @@ h1 {
     }
     .Genre1{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/johnwick.avif);
+                      url(/image/imagesbackground/Football.jpg);
     }
     .Genre2{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/uncharted.webp);
+                      url(/image/imagesbackground/Rugby.avif);
     }
     .Genre3{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/chtis.webp);
+                      url(/image/imagesbackground/Tennis.jpg);
     }
     .Genre4{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/titanic.webp);
+                      url(/image/imagesbackground/Basketball.webp);
     }
     .Genre5{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/seigneuranneaux.webp);
+                      url(/image/imagesbackground/Handball.jpg);
     }
     .Genre6{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/shining.jpg);
+                      url(/image/imagesbackground/Combat.jpg);
     }
     .Genre7{
         background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                      url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
+                      url(/image/imagesbackground/Mécanique.jpg);
     }
 }
 .Tendances{
@@ -241,7 +241,7 @@ h2 {
     justify-content: center;
     img{
         width: 200px;
-        height: 300px;
+        height: 220px;
         margin:10px;
         border-radius:10px;
         background-size: cover;	
