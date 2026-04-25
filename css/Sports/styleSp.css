@@ -1,0 +1,294 @@
+body
+{
+    background-image: url("/image/imagesbackground/3417619.jpg");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%;
+}
+h1 {
+    font-family: "Doto";
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+.Genre{
+    display:flex;
+    gap: 20px;
+    font-family:"Doto";
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        width: 250px;
+        height:150px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        line-height: 150px;
+        color:white;
+        font-size:1.7em;
+        transition: transform 0.3s ease;
+    }
+    a:hover{
+    transform: scale(1.1);
+    }
+    .Genre1{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/johnwick.avif);
+    }
+    .Genre2{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/uncharted.webp);
+    }
+    .Genre3{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/chtis.webp);
+    }
+    .Genre4{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/titanic.webp);
+    }
+    .Genre5{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/seigneuranneaux.webp);
+    }
+    .Genre6{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/shining.jpg);
+    }
+    .Genre7{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                      url(/image/imagesbackground/le-roi-et-loiseau.jpg.webp);
+    }
+}
+.Tendances{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Nouveautés{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Football{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Rugby{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Tennis{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Basket{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Handball{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.SportsDeCombat{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Mécaniques{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+h2 {
+    background-color: rgb(211, 255, 209);
+    border-radius: 10px;
+    font-size: 1.7em;
+    font-family: "Doto";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 5px 100px;
+}
+.Plateformes{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 300px;
+        margin:10px;
+        border-radius:10px;
+        background-size: cover;	
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.05);
+    }
+}
+.Titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    #TitrePrincipal {
+        border-radius: 10px;
+        background-color: rgb(225, 255, 222);
+        padding: 15px 40px;
+        font-family: "Doto";
+    }
+    a{
+        text-decoration: none;
+        border-radius: 10px;
+        background-color:rgb(225, 255, 222);
+        margin-left: 15px;
+        padding:15px;   
+        font-family:"Doto";
+        font-size: 1.3em;
+        color:black;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        transition: transform 0.3s ease;
+        position: absolute;
+        left: 20px;
+    }
+    a:hover{
+        transform: scale(1.1);
+    }
+    #Accueil{
+        background-color:rgb(225, 255, 222) ;
+        border-radius:10px;
+        font-family: "Doto";
+        line-height: 120px;
+        margin:10px;
+        padding:2px;
+        border-spacing: 15px;
+    }
+}
