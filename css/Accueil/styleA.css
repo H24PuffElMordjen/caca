@@ -62,11 +62,11 @@ h3{
     animation-name: HorizontalScroll;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-    animation-duration: 20s;
+    animation-duration: 10s;
 }
 @keyframes HorizontalScroll {
 	from {transform: translateX(0) }
-	to {transform: translateX(calc(-751%));}
+	to {transform: translateX(calc(-1050%));}
 }
 .BannièreSeries{
     display: flex;
