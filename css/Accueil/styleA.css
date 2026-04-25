@@ -19,6 +19,7 @@ h1{
     display:flex;
     gap: 70px;
     justify-content: center;
+    align-items: center;
     a{
         font-family:"Doto";
         background-color: rgb(211, 255, 209);
@@ -61,7 +62,7 @@ h3{
     animation-name: HorizontalScroll;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-    animation-duration: 10s;
+    animation-duration: 20s;
 }
 @keyframes HorizontalScroll {
 	from {transform: translateX(0) }
